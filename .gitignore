@@ -1,0 +1,13 @@
+## MacOS
+*.DS_Store
+
+## Editors
+# JetBrains
+*.iml
+.idea/
+CMakeLists.txt
+cmake-build-debug
+
+# Vendoring
+.glide/
+vendor
