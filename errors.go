@@ -1,14 +1,14 @@
 package main
 
 import (
-	"fmt"
 	"errors"
+	"fmt"
 
 	"github.com/urfave/cli"
 )
 
 var (
-	errAbsFailed = errors.New("Failed to absolute path")
+	errAbsFailed    = errors.New("Failed to absolute path")
 	errFileNotFound = errors.New("File Not Found")
 )
 

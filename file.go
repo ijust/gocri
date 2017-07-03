@@ -1,14 +1,14 @@
 package main
 
 import (
-	"os"
-	"errors"
-	"path/filepath"
-	"io/ioutil"
-	"fmt"
 	"crypto/rsa"
-	"encoding/pem"
 	"crypto/x509"
+	"encoding/pem"
+	"errors"
+	"fmt"
+	"io/ioutil"
+	"os"
+	"path/filepath"
 
 	"github.com/urfave/cli"
 )

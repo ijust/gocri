@@ -22,7 +22,7 @@ var (
 	label = []byte("Encoded by Gocri(v" + version + ") RSA")
 )
 
-type(
+type (
 	content struct {
 		Path string `json:"path"`
 		Body []byte `json:"body"`
